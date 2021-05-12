@@ -1,0 +1,17 @@
+.notification{
+    position: relative;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid red;
+    margin-top: 15px;
+
+    span{
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        &:hover{
+            cursor: pointer
+        }
+    }
+}
